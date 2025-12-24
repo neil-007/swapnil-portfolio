@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Backend Developer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <!-- Top Banner -->
+    <header class="hero">
+      <div class="hero-inner">
+        <h1>Your Name</h1>
+        <p class="subtitle">
+          Backend Developer | X+ Years Experience | Java | Microservices | AWS
+        </p>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- About -->
+      <section class="section">
+        <h2>About Me</h2>
+        <div class="divider"></div>
+        <p class="text">
+          Backend Engineer with X+ years of experience in Java and Spring Boot.
+          Experienced in building scalable microservices, designing REST APIs,
+          working with cloud (AWS), and improving performance and reliability of
+          enterprise applications.
+        </p>
+      </section>
+
+      <!-- Skills -->
+      <section class="section">
+        <h2>Skills</h2>
+        <div class="divider"></div>
+
+        <ul class="skills">
+          <li>Java (8/11/17)</li>
+          <li>Spring Boot, Spring Cloud</li>
+          <li>RESTful API Design</li>
+          <li>Microservices Architecture</li>
+          <li>MySQL, MongoDB</li>
+          <li>AWS (EC2, S3, Lambda)</li>
+          <li>Git, Jenkins, Docker, Kubernetes</li>
+          <li>Kafka</li>
+          <li>Redis / Caching</li>
+        </ul>
+      </section>
+
+      <!-- Projects -->
+      <section class="section">
+        <div class="cards">
+          <article class="card">
+            <h3>Recharge Service</h3>
+            <p class="text">
+              Owned and managed a recharge service used across multiple regions.
+              Responsible for showing users payment options, integrating multiple
+              payment gateways/wallets, and handling high transaction volume.
+            </p>
+            <p class="text">
+              <strong>Role & Responsibility:</strong> Designed and maintained
+              REST APIs, improved reliability/performance, integrated external
+              partners, and ensured transactional consistency.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Product Catalogue Caching System</h3>
+            <p class="text">
+              Implemented caching strategies for product catalogue services,
+              significantly reducing API latency and database load using
+              in-memory cache and optimized fetch policies.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Regulatory Integration Service</h3>
+            <p class="text">
+              Built services that integrated with regulatory authorities to
+              support compliance and auditability, including real-time reporting,
+              data anonymization, and security controls tailored to regulations.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Resume -->
+      <section class="section">
+        <h2>Resume</h2>
+        <div class="divider"></div>
+        <p class="text">You can view my resume here:</p>
+        <p class="text">
+          📄
+          <a class="link" href="https://drive.google.com/" target="_blank" rel="noreferrer">
+            View Resume (Google Drive)
+          </a>
+        </p>
+      </section>
+
+      <!-- Contact -->
+      <section class="section">
+        <h2>Contact</h2>
+        <div class="divider"></div>
+
+        <div class="contact">
+          <p class="text"><strong>Email:</strong> your.email@example.com</p>
+          <p class="text">
+            <strong>LinkedIn:</strong>
+            <a class="link" href="https://linkedin.com/in/your-handle" target="_blank" rel="noreferrer">
+              linkedin.com/in/your-handle
+            </a>
+          </p>
+          <p class="text">
+            <strong>GitHub:</strong>
+            <a class="link" href="https://github.com/your-username" target="_blank" rel="noreferrer">
+              github.com/your-username
+            </a>
+          </p>
+          <p class="text">
+            <strong>LeetCode:</strong>
+            <a class="link" href="https://leetcode.com/" target="_blank" rel="noreferrer">
+              leetcode.com/u/your-handle
+            </a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
